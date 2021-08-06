@@ -1,0 +1,93 @@
+*{	
+	margin: 0;
+	padding: 0;
+}
+body{background: lightcyan;}
+form{text-align: center;}
+
+#fieldset {border: none;}
+.container-fluid {
+	padding-left: 0;
+	padding-right: 0;
+}
+.logo {
+	width: 130px;
+}
+.tituloPrincipal {
+	text-align: center;
+	color: darkcyan;
+	font-size: 80px;
+}
+.bg-light {
+    background-color: #0191b4!important;
+}
+.footerBg {
+	background-color: #0191B4;
+}
+.card {
+		    background-color: #a8dede;
+}
+.card-text:last-child {
+	font-family: sans-serif;
+}
+
+/*vista desktop*/
+@media only screen and (min-width: 1024px){
+	.navbar-expand-lg .navbar-collapse {
+		justify-content: flex-end;
+		padding-right: 50px;
+	}
+	.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(16 8 113 / 90%)
+	}
+	.w-100 {
+    width: 90%!important;
+    margin: auto;
+	}
+	.card-img, .card-img-bottom, .card-img-top {
+		height: 70%;
+	}
+	.imagenEnfermera {
+		width: 100%;
+	}
+	.tituloNombre {
+		text-align: center;
+		color: darkcyan;
+		font-size: 80px;
+	}
+	.tituloServicios {
+		text-align: center;
+		color: darkcyan;
+		font-size: 80px;
+	}
+	.ayudarte {
+		text-align: center;
+		color: darkcyan;
+		font-size: 30px;
+	}
+	.card-deck {
+		padding: 15px;
+	}
+	.card {
+		width: 100%;
+		margin-top: 20px;
+	}
+	.tituloPersonalizado {
+		font-size: 50px;
+		color: darkcyan;
+		border-bottom: solid 5px #65d6a6;
+	}
+}
+/*vista mobile*/
+@media only screen and (min-width: 0px) and (max-width:	767px){
+	.tituloServicios {
+		text-align: center;
+		color: darkcyan;
+		font-size: 30px;
+	}
+	.card {
+		margin: 20px;
+	}
+	.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto { 
+	text-align: center; 
+}
